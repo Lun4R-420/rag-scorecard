@@ -1,0 +1,23 @@
+[project]
+name = "rag-scorecard"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Lun4R-420", email = "adelynaspoiala@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "sentence-transformers>=6.0.1",
+    "tiktoken>=0.14.0",
+]
+
+[project.scripts]
+rag-scorecard = "rag_scorecard:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
