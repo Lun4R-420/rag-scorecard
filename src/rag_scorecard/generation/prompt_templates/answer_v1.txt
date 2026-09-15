@@ -1,0 +1,7 @@
+Answer the question using ONLY the numbered context chunks below. If the chunks don't contain the answer, say "I don't know based on the given context."
+
+After your answer, cite which chunk number(s) you used, like: [Source: chunk 2].
+
+{context_block}
+
+Question: {question}
