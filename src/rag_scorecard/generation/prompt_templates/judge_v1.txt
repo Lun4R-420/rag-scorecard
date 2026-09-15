@@ -1,0 +1,11 @@
+You are a strict fact-checker. Given the context chunks below and an answer someone gave to the question, decide if the answer is FAITHFUL to the context — meaning every claim in the answer is directly supported by the context, with no invented facts.
+
+{context_block}
+
+Question: {question}
+
+Answer to check: {answer}
+
+Respond in exactly this format:
+VERDICT: FAITHFUL or UNFAITHFUL
+REASONING: one sentence explaining why.

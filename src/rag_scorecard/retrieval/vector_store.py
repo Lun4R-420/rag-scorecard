@@ -1,9 +1,11 @@
+from pathlib import Path
+
 import chromadb
 
 from rag_scorecard.ingestion.chunker import Chunk
 from rag_scorecard.retrieval.embed import embed_texts
 
-_PERSIST_DIR = "data/chroma"
+_PERSIST_DIR = str(Path(__file__).parents[3] / "data" / "chroma")
 _COLLECTION_NAME = "squad_chunks"
 
 

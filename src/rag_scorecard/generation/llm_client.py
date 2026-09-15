@@ -3,7 +3,7 @@ from pathlib import Path
 import anthropic
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(dotenv_path=Path(__file__).parents[3] / ".env")
 
 _MODEL = "claude-haiku-4-5-20251001"
 _PROMPT_PATH = Path(__file__).parent / "prompt_templates" / "answer_v1.txt"
